@@ -1,0 +1,89 @@
+body{
+margin: 0px;
+	font-size: 1.2rem;
+	color: white;
+	background-color: black;
+	font-family: Segoe UI,system-ui,-apple-system,sans-serif
+}
+
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px 90px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,0.6);
+	border-bottom: 1px solid #fff;
+}
+
+nav .logo{
+	padding: 22px 20px;
+	float: left;
+	font-size: 30px;
+	font-weight: bold;
+	color: rgb(105, 204, 55);
+}
+
+nav ul{
+
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav ul li a{
+	line-height: 80px;
+	color: #fff;
+	padding: 12px 30px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.padding{
+
+	padding: 11rem; 
+	padding-top: 2rem
+}
+
+.box{
+	
+	padding: 20px;
+	border: solid white;
+	border-width: 1px;
+
+}
+
+.color{
+	color: red;
+}
+
+.b{
+	color: #4DD3FF;
+	width: 1px; 
+}
+.c{
+	color: rgb(12, 173, 93);
+}
+
+img{
+
+	width:100%;
+	height: 46em;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+	text-decoration: none;	
+	color: lightblue;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: skyblue;
+}
